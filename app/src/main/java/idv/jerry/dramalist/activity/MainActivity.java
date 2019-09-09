@@ -167,8 +167,6 @@ public class MainActivity extends Activity implements MainView{
         @Override
         public void onClick(int position) {
 
-            Toast.makeText(MainActivity.this, String.valueOf(position), Toast.LENGTH_SHORT).show();
-
             ArrayList<DramaData> dramaList = mainPresenter.getDreamList();
             DramaData data = dramaList.get(position);
 
