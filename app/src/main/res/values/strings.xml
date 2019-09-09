@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DramaList</string>
+    <string name="input_search_hint">請輸入關鍵字</string>
+    <string name="publish_title">發布日期：</string>
+</resources>
